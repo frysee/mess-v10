@@ -14,7 +14,8 @@ J_CONF_LOCK="/tmp/.system.cfg.lock"
 ES_CONF="/storage/.emulationstation/es_settings.cfg"
 
 function tocon() {
-  echo -ne "\033[1000H\033[2K==> ${*}" >/dev/console
+  # echo -ne "\033[1000H\033[2K==> ${*}" >/dev/console
+  return
 }
 
 function log() {

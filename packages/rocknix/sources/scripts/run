@@ -28,13 +28,13 @@ elif echo "${UI_SERVICE}" | grep "sway"; then
 else
   ui_state stop
   clear >/dev/console
-  $* >/dev/console
+  # $* >/dev/console
   if [ "$?" == 0 ]
   then
     ui_state start
     exit 0
   else
-    "$*" >/dev/console
+    # "$*" >/dev/console
     ui_state start
     exit 0
   fi
