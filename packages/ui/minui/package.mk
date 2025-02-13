@@ -8,7 +8,7 @@ PKG_ARCH="any"
 PKG_LICENSE=""
 PKG_SITE=""
 PKG_URL=""
-PKG_DEPENDS_TARGET="toolchain plymouth-lite SDL SDL_image SDL_ttf SDL2 SDL2_image SDL2_ttf wireplumber librga"
+PKG_DEPENDS_TARGET="toolchain plymouth-lite SDL2 SDL2_image SDL2_ttf wireplumber librga"
 PKG_LONGDESC="integrated launcher and frontend"
 PKG_TOOLCHAIN="manual"
 makeinstall_target() {
