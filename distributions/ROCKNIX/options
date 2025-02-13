@@ -8,28 +8,28 @@
   HARDENING_SUPPORT="no"
 
 # The name of the parent organization for updates
-  GIT_ORGANIZATION="ROCKNIX"
+  GIT_ORGANIZATION=""
 
 # The name of the github project for updates
   GIT_REPO="distribution"
 
 # Name of the Distro to build (full name, without special characters)
-  DISTRONAME="ROCKNIX"
+  DISTRONAME="MESS"
 
 # Name of the OS to build (full name, lower case, without special characters)
-  OSNAME="rocknix"
+  OSNAME="mess"
 
 # short project description
-  DESCRIPTION="An Open Source firmware."
+  DESCRIPTION="MinUI EX OS Subsystem, a barebones firmware for the v10 based on Rocknix."
 
 # Distribution Home URL
-  HOME_URL="https://rocknix.org"
+  HOME_URL="https://github.com/frysee/Mess-v10"
 
 # Documentation URL
-  WIKI_URL="https://rocknix.org"
+  WIKI_URL=""
 
 # Where to report bugs
-  BUG_REPORT_URL="https://rocknix.org"
+  BUG_REPORT_URL=""
 
 # Root password to integrate in the target system
   ROOT_PASSWORD="rocknix"
@@ -175,7 +175,7 @@
 
 # Distribution Specific source location
   DISTRO_MIRROR=""
-  DISTRO_SRC="https://github.com/ROCKNIX"
+  DISTRO_SRC="https://github.com/fryse/Mess-v10"
 
 # Default size of system partition, in MB, eg. 512
   SYSTEM_SIZE=2048
@@ -190,7 +190,7 @@
   GET_HANDLER_SUPPORT="archive git file"
 
 # Partition labels for USB/SD installation media
-  DISTRO_BOOTLABEL="ROCKNIX"
+  DISTRO_BOOTLABEL="MESS"
   DISTRO_DISKLABEL="STORAGE"
 
 # Settings package name - blank if not required
