@@ -1,6 +1,6 @@
 [Unit]
 Description=ROCKNIX user autostart script
-Before=emustation.service weston.service
+Before=minui.service weston.service
 After=network-base.service graphical.target userconfig.service
 
 [Service]
