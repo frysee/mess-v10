@@ -39,6 +39,7 @@ makeinstall_target() {
     cat <<EOF >> ${INSTALL}/usr/config/system/configs/system.cfg
 wifi.ssid=${LOCAL_WIFI_SSID}
 wifi.key=${LOCAL_WIFI_KEY}
+wifi.enabled=1
 EOF
   fi
 }
@@ -72,16 +73,6 @@ EOF
   enable_service save-sysconfig.service
 
   sed -i "s#@DEVICENAME@#${DEVICE}#g" ${INSTALL}/usr/config/system/configs/system.cfg
-
-  ### Defaults for non-main builds.
-  BUILD_BRANCH="$(git branch --show-current)"
-  if [ ! "${BUILD_BRANCH}" = "main" ]
-  then
-    sed -i "s#samba.enabled=0#samba.enabled=1#g" ${INSTALL}/usr/config/system/configs/system.cfg
-    sed -i "s#ssh.enabled=0#ssh.enabled=1#g" ${INSTALL}/usr/config/system/configs/system.cfg
-    sed -i "s#wifi.enabled=0#wifi.enabled=1#g" ${INSTALL}/usr/config/system/configs/system.cfg
-    sed -i "s#system.loglevel=none#system.loglevel=verbose#g" ${INSTALL}/usr/config/system/configs/system.cfg
-  fi
 
   ### Disable automount on AMD64
   if [ "${DEVICE}" = "AMD64" ]
