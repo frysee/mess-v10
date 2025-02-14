@@ -7,5 +7,5 @@ PKG_SITE="https://rocknix.org"
 PKG_SECTION="virtual"
 PKG_LONGDESC="Cloud/local sync tools metapackage."
 
-PKG_DEPENDS_TARGET="rsync rclone syncthing"
+PKG_DEPENDS_TARGET="rsync rclone"
 

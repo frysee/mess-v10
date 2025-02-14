@@ -2,20 +2,20 @@
 
 ---
 
-ROCKNIX is an immutable Linux distribution for handheld gaming devices developed by a small community of enthusiasts.  Our goal is to produce an operating system that has the features and capabilities that we need, and to have fun as we develop it.
+ROCKNIX is an immutable Linux distribution for handheld gaming devices developed by a small community of enthusiasts. Our goal is to produce an operating system that has the features and capabilities that we need, and to have fun as we develop it.
 
 ## Features
 
-* ROCKNIX has a very active community of developers and users.
-* Integrated cross-device local and remote network play.
-* In-game touch support on supported devices.
-* Fine grain control for battery life or performance.
-* Includes support for playing Music and Video.
-* Bluetooth audio and controller support.
-* Support for HDMI audio and video out, and USB audio.
-* Device to device and device to cloud sync with Syncthing and rclone.
-* VPN support with Wireguard, Tailscale, and ZeroTier.
-* Includes built-in support for scraping and retroachievements.
+- ROCKNIX has a very active community of developers and users.
+- Integrated cross-device local and remote network play.
+- In-game touch support on supported devices.
+- Fine grain control for battery life or performance.
+- Includes support for playing Music and Video.
+- Bluetooth audio and controller support.
+- Support for HDMI audio and video out, and USB audio.
+- Device to device and device to cloud sync with rclone.
+- VPN support with Wireguard, Tailscale, and ZeroTier.
+- Includes built-in support for scraping and retroachievements.
 
 ## Screenshots
 
@@ -36,7 +36,7 @@ The ROCKNIX community utilizes Discord for discussion, if you would like to join
 
 ## Licenses
 
-**ROCKNIX** is a fork of [JELOS](https://github.com/JustEnoughLinuxOS/distribution/), all licenses apply and credit to the JELOS team. 
+**ROCKNIX** is a fork of [JELOS](https://github.com/JustEnoughLinuxOS/distribution/), all licenses apply and credit to the JELOS team.
 
 You are free to:
 
@@ -53,11 +53,12 @@ Under the following terms:
 
 Copyright (C) 2024-present [ROCKNIX](https://github.com/ROCKNIX)
 
-Original software and scripts developed by the ROCKNIX are licensed under the terms of the [GNU GPL Version 2](https://choosealicense.com/licenses/gpl-2.0/).  The full license can be found in this project's licenses folder.
+Original software and scripts developed by the ROCKNIX are licensed under the terms of the [GNU GPL Version 2](https://choosealicense.com/licenses/gpl-2.0/). The full license can be found in this project's licenses folder.
 
 ### Bundled Works
-All other software is provided under each component's respective license.  These licenses can be found in the software sources or in this project's licenses folder.  Modifications to bundled software and scripts by the JELOS team are licensed under the terms of the software being modified.
+
+All other software is provided under each component's respective license. These licenses can be found in the software sources or in this project's licenses folder. Modifications to bundled software and scripts by the JELOS team are licensed under the terms of the software being modified.
 
 ## Credits
 
-Like any Linux distribution, this project is not the work of one person.  It is the work of many persons all over the world who have developed the open source bits without which this project could not exist.  Special thanks to CoreELEC, LibreELEC, JELOS, and to developers and contributors across the open source community.
+Like any Linux distribution, this project is not the work of one person. It is the work of many persons all over the world who have developed the open source bits without which this project could not exist. Special thanks to CoreELEC, LibreELEC, JELOS, and to developers and contributors across the open source community.
