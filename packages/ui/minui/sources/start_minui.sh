@@ -1,6 +1,6 @@
 #!/bin/sh
 PLATFORM="v10"
-SDCARD_PATH="/storage/TF2"
+SDCARD_PATH="/storage"
 UPDATE_PATH="$SDCARD_PATH/MinUI.zip"
 SYSTEM_PATH="$SDCARD_PATH/.system"
 IMAGE_PATH="/usr/share/minui"
