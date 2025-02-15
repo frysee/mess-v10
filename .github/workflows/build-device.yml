@@ -167,7 +167,7 @@ jobs:
       - build-aarch64-toolchain
     env:
       EMULATION_DEVICE: no
-      ENABLE_32BIT: no
+      ENABLE_32BIT: false
       JAVA_HOME: /usr
       PROJECT: ${{ inputs.PROJECT }}
       DEVICE: ${{ inputs.DEVICE }}
@@ -383,7 +383,7 @@ jobs:
 
     env:
       EMULATION_DEVICE: no
-      ENABLE_32BIT: no
+      ENABLE_32BIT: false
       TARGET_TYPE: cores_only
       JAVA_HOME: /usr
       PROJECT: ${{ inputs.PROJECT }}
@@ -505,7 +505,7 @@ jobs:
 
     env:
       EMULATION_DEVICE: no
-      ENABLE_32BIT: no
+      ENABLE_32BIT: false
       TARGET_TYPE: emus_only
       JAVA_HOME: /usr
       PROJECT: ${{ inputs.PROJECT }}
