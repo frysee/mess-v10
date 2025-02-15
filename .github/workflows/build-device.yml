@@ -703,7 +703,7 @@ jobs:
       - name: Extract artifact emu-standalone
         run: |
           cat build.emu-standalone.tar.zst.part* > build.emu-standalone.tar.zst
-          tar --zstd -xf --overwrite build.emu-standalone.tar.zst
+          tar --zstd -xf build.emu-standalone.tar.zst
       - name: Clean up compressed emu-standalone file
         run: rm build.emu-standalone.tar.zst
 
