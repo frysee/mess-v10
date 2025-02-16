@@ -31,8 +31,8 @@ fi
 # no MinUI files detected
 if [ ! -f "$LAUNCH_PATH" ]; then
 	ply-image $IMAGE_PATH/missing.png
-	sleep 10
-	poweroff
+	sleep 1000
+	# poweroff
 fi
 # launch it
 while [ -f "$LAUNCH_PATH" ] ; do
