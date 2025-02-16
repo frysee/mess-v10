@@ -6,17 +6,17 @@ PKG_VERSION="0.6.0"
 PKG_LICENSE="GPL"
 PKG_SITE="http://www.meego.com"
 PKG_URL="http://sources.libreelec.tv/devel/${PKG_NAME}-${PKG_VERSION}.tar.bz2"
-PKG_DEPENDS_INIT="toolchain gcc:init libpng"
+PKG_DEPENDS_TARGET="toolchain gcc libpng"
 PKG_LONGDESC="Boot splash screen based on Fedora's Plymouth code"
 PKG_TOOLCHAIN="make"
 
-pre_configure_init() {
+pre_configure_target() {
   # plymouth-lite dont support to build in subdirs
   cd ${PKG_BUILD}
     rm -rf .${TARGET_NAME}-init
 }
 
-makeinstall_init() {
+makeinstall_target() {
   mkdir -p ${INSTALL}/usr/bin
     cp ply-image ${INSTALL}/usr/bin
 
