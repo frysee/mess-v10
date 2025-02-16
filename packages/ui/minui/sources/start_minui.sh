@@ -6,7 +6,7 @@ SYSTEM_PATH="$SDCARD_PATH/.system"
 IMAGE_PATH="/usr/share/minui"
 LAUNCH_PATH="$SYSTEM_PATH/$PLATFORM/paks/MinUI.pak/launch.sh"
 # TODO: Fix path
-echo performance > /sys/devices/system/cpu/cpufreq/policy0/scaling_governor
+echo performance > ${CPU_FREQ}/scaling_governor
 # copy firmware update from TF2 to TF1 and reboot
 FW_PATH=$(ls -1 $SDCARD_PATH/MESS*.tar 2>/dev/null | head -n 1)
 if [[ ! -z "$FW_PATH" && -f "$FW_PATH" ]]; then
